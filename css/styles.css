@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 5.25rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.top h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  width: 5%;
+}
+
+a {
+  color: #11999E;
+}
+
+.top {
+  padding-top: 100px;
+  position: relative;
+  background-color: #c2f0f0;
+}
+
+.cloudtop {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloudbottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.batman {
+  width: 20%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.htmlgif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cssgif {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 34;
+  -moz-border-radius: 34;
+  border-radius: 34px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #77cbce;
+  height: 200px;
+
+}
+
+.footer-link {
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.copy {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
